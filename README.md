@@ -56,7 +56,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/officelite-coming-soon-site-using-gulp-sass-bem-html-flexbox-var-HsC0ZRlmT)
 - Live Site URL: [Github Pages](https://rzvr.github.io/officelite-coming-soon-site/)
 
 ## My process
@@ -72,7 +72,7 @@ Users should be able to:
 
 ### What I learned
 
-
+In this challenge, I studied and updated my knowledge of the project structure, building a project with gulp, a more conscious approach to responsive design.
 
 ### Continued development
 
