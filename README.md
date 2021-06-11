@@ -30,12 +30,34 @@ Users should be able to:
 
 ### Screenshot
 
-![]()
+<details>
+  <summary>Desktop</summary>
+
+<img src="./src/images/screenshots/home-desktop.png" alt="" width="700"/>
+<img src="./src/images/screenshots/sign-in-select-close-desktop.png" alt="" width="700"/>
+<img src="./src/images/screenshots/sign-in-select-open-desktop.png" alt="" width="700"/>
+</details>
+
+<details>
+  <summary>Tablet</summary>
+
+<img src="./src/images/screenshots/home-tablet.png" alt="" width="400"/>
+<img src="./src/images/screenshots/sign-in-select-close-tablet.png" alt="" width="400"/>
+<img src="./src/images/screenshots/sign-in-select-open-tablet.png" alt="" width="400"/>
+</details>
+
+<details>
+  <summary>Mobile</summary>
+
+<img src="./src/images/screenshots/home-mobile.png" alt="" width="200"/>
+<img src="./src/images/screenshots/sign-in-select-close-mobile.png" alt="" width="200"/>
+<img src="./src/images/screenshots/sign-in-select-open-mobile.png" alt="" width="200"/>
+</details>
 
 ### Links
 
 - Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Github Pages]()
+- Live Site URL: [Github Pages](https://rzvr.github.io/officelite-coming-soon-site/)
 
 ## My process
 
@@ -46,6 +68,7 @@ Users should be able to:
 - SASS
 - BEM
 - Flexbox
+- Gulp
 
 ### What I learned
 
@@ -59,7 +82,6 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 - [Youtube](https://www.youtube.com/user/KepowOb) - Great channel about HTML and CSS.
 - [Ninja Units](https://www.ninjaunits.com/) - A site where you can convert all possible and necessary in the creation of sites units.
-- [Free Frontend](https://freefrontend.com/css-accordions/) - interesting article about creating accordions with and without js.
 
 ## Author
 
@@ -67,7 +89,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - LinkedIn - [rzvr](https://www.linkedin.com/in/roman-zvir-8a4394214)
 - Codewars - [rzvr](https://www.codewars.com/users/rzvr)
 - Frontend Mentor - [@rzvr](https://www.frontendmentor.io/profile/rzvr)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
