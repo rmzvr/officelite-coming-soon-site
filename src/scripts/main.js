@@ -1,9 +1,14 @@
 const selectMenu = document.querySelector('.select-menu');
 const selectMenuHeader = document.querySelector('.select-menu__header-title');
 const selectMenuItem = document.querySelectorAll('.select-menu__item');
+
 const timerCounters = document.querySelectorAll('.timer__counter');
 const timerTitleDate = document.querySelector('.timer__title-date');
 const countDownDate = new Date(2021, 08, 10);
+
+const regExpName = /^([a-z]|[A-Z])\w{3,50}$/;
+const inputName = document.querySelector('.input-name');
+
 
 for (let i = 0; i < selectMenuItem.length; i++) {
     const item = selectMenuItem[i];
@@ -55,3 +60,12 @@ function countDown(countDownDate) {
     timerCounters[2].innerText = mm;
     timerCounters[3].innerText = ss;
 }
+
+inputName.addEventListener('keyup', function (event) {
+    const inputValue = event.target.value;
+    if (!regExpName.test(inputValue)) {
+        inputName.classList.add('invalid');
+    } else {
+        inputName.classList.remove('invalid');
+    }
+});

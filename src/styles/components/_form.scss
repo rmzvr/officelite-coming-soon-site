@@ -31,7 +31,8 @@ input {
         color: hsl(227, 14%, 75%);
     }
 
-    &:invalid {
+    &:invalid,
+    &.invalid {
         color: var(--clr-accent-100);
         border-bottom: 1px solid var(--clr-accent-100);
     }
