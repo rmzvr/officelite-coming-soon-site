@@ -77,6 +77,12 @@
 .timer__counter {
     color: var(--clr-timer-counter);
 
+    @include mq(medium) {
+        &.h1 {
+            font-size: 3.5rem;
+        }
+    }
+
     @include mq(small) {
         &.h1 {
             font-size: 2rem;

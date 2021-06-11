@@ -27,7 +27,7 @@ const fonts = () => {
 }
 
 const styles = () => {
-    return gulp.src('src/styles/scss/*.scss')
+    return gulp.src('src/styles/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(cssnano())
@@ -72,7 +72,7 @@ const deployBuild = () => {
 const watch = () => {
     gulp.watch('*.html', html);
     gulp.watch('src/fonts/*.ttf', fonts);
-    gulp.watch('src/styles/scss/**/*.scss', styles);
+    gulp.watch('src/styles/**/*.scss', styles);
     gulp.watch('src/scripts/*.js', scripts);
     gulp.watch('src/images/**/*.*', images);
 }
