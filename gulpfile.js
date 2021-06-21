@@ -8,9 +8,9 @@ const concat = require('gulp-concat');
 const del = require('del');
 const browserSync = require('browser-sync').create();
 const deploy = require('gulp-gh-pages');
+const sass = require('gulp-dart-sass');
 
-const sass = require('gulp-sass')
-sass.compiler = require('sass')
+sass.compiler = require('sass');
 
 const html = () => {
     return gulp.src('*.html')
@@ -77,8 +77,10 @@ const watch = () => {
     gulp.watch('src/images/**/*.*', images);
 }
 
+gulp.task(deployBuild);
+
 exports.default = gulp.series(
     deleteBuild,
     gulp.parallel(html, fonts, styles, scripts, images),
-    gulp.parallel(watch, server, deployBuild)
+    gulp.parallel(watch, server)
 )
