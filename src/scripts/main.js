@@ -4,7 +4,7 @@ const selectMenuItem = document.querySelectorAll('.select-menu__item');
 
 const timerCounters = document.querySelectorAll('.timer__counter');
 const timerTitleDate = document.querySelector('.timer__title-date');
-const countDownDate = new Date(2021, 08, 10);
+const countDownDate = new Date(2022, 08, 10);
 
 const regExpName = /^([a-z]|[A-Z])\w{3,50}$/;
 const inputName = document.querySelector('.input-name');
