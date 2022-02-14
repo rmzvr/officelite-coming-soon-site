@@ -12,10 +12,12 @@ const sass = require('gulp-dart-sass');
 
 sass.compiler = require('sass');
 
+const path = "/officelite-coming-soon-site/";
+
 const html = () => {
     return gulp.src('*.html')
         .pipe(urlPrefixer.html({
-            prefix: '/officelite-coming-soon-site/',
+            prefix: path,
             tags: ['script', 'link', 'img', 'a']
         }))
         .pipe(gulp.dest('build'))
@@ -33,7 +35,7 @@ const styles = () => {
         .pipe(cssnano())
         .pipe(rename({ suffix: '.min' }))
         .pipe(urlPrefixer.css({
-            prefix: '/officelite-coming-soon-site/'
+            prefix: path
         }))
         .pipe(gulp.dest('build/styles'))
 }
@@ -41,7 +43,6 @@ const styles = () => {
 const scripts = () => {
     return gulp.src('src/scripts/*.js')
         .pipe(uglify())
-        .pipe(concat('main.min.js'))
         .pipe(gulp.dest('build/scripts'))
 }
 
