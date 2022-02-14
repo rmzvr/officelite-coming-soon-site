@@ -1,0 +1,1 @@
+function showCard(e){e.style.opacity="1"}window.addEventListener("scroll",()=>{var e=document.querySelectorAll(".cards")[0];const n=e.children[0],o=e.children[1],t=e.children[2];window.scrollY+n.getBoundingClientRect().top+n.getBoundingClientRect().height<=window.scrollY+window.innerHeight&&(showCard(n),setTimeout(()=>showCard(o),400),setTimeout(()=>showCard(t),800))});
