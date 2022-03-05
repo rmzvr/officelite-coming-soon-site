@@ -99,6 +99,10 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  &::-webkit-details-marker {
+    display: none;
+  }
 }
 
 .select-menu__arrow {
