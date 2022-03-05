@@ -99,10 +99,12 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
 
-  &::-webkit-details-marker {
-    display: none;
-  }
+summary::-webkit-details-marker,
+summary::marker {
+  display: none;
+  content: "";
 }
 
 .select-menu__arrow {
