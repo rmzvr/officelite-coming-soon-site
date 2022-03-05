@@ -68,6 +68,8 @@ input {
 
 .select-menu {
   position: relative;
+  z-index: 10px;
+
   cursor: pointer;
 
   &[open] {
