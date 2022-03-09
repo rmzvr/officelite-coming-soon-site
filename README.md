@@ -57,7 +57,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/officelite-coming-soon-site-using-gulp-sass-bem-html-flexbox-var-HsC0ZRlmT)
-- Live Site URL: [Github Pages](https://rzvr.github.io/officelite-coming-soon-site/)
+- Live Site URL: [Github Pages](https://rmzvr.github.io/officelite-coming-soon-site/)
 
 ## My process
 
@@ -85,7 +85,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Github - [rzvr](https://github.com/rzvr)
-- LinkedIn - [rzvr](https://www.linkedin.com/in/roman-zvir-8a4394214)
-- Codewars - [rzvr](https://www.codewars.com/users/rzvr)
-- Frontend Mentor - [@rzvr](https://www.frontendmentor.io/profile/rzvr)
+- [Github](https://github.com/rmzvr)
+- [LinkedIn](https://www.linkedin.com/in/rmzvr)
+- [Codewars](https://www.codewars.com/users/rmzvr)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/rmzvr)
